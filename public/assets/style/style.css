@@ -685,6 +685,12 @@ input[type="submit"]{
     .header{
         display: none;
     }
+    .apropos_information,
+    .entreprises,
+    .projets_item{
+        overflow-x: hidden;
+    }
+
 
     section{
     display: flex;
