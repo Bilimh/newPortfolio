@@ -790,6 +790,7 @@ input[type="submit"] {
         /*background-color: var(--colorBody);*/
         background-color: var(--colorSection2);
         color: var(--colorText);
+        overflow-x: hidden;
     }
 
     section.active {
