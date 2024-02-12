@@ -860,7 +860,7 @@ section.active {
     margin: 5px;
   }
   #section4{
-    height: 100vh;
+    height: auto;
   }
   
   #afficherPlus,
