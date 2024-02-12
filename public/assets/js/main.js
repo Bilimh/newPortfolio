@@ -1,3 +1,9 @@
+document.addEventListener('DOMContentLoaded', function() {
+    if (window.innerWidth <= 900) {
+        document.body.style.overflowX = 'hidden';
+    }
+});
+
 function checkWindowSize() {
     if (window.innerWidth > 900) {
 
