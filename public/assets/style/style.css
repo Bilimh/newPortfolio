@@ -335,7 +335,7 @@ section.active {
     height: 100vh;
     padding-left: 25px;
     padding-bottom: 25px;
-    position: relative;
+    /*position: relative;*/
 }
 
 .image_diplome {
@@ -851,10 +851,7 @@ input[type="submit"] {
         font-size: 1rem;
     }
 
-    #section1 {
-        /*padding-top: 23px;*/
-        overflow-y: hidden;
-    }
+  
 
     .apropos {
         display: flex;
@@ -894,7 +891,7 @@ input[type="submit"] {
     }
 
     .apropos_information_item {
-        width: 100%
+        width: 100%;
     }
 
     .apropos_information_item img {
@@ -1034,6 +1031,12 @@ input[type="submit"] {
     .apropos_information {
         overflow-y: scroll;
         padding-bottom: 23px;
-        top: -15%;
+    }
+    #section1 {
+        /*padding-top: 23px;*/
+        overflow-y: hidden;
+    }
+    #devWeb{
+        top:50%
     }
 }
